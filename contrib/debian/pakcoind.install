@@ -1,0 +1,2 @@
+debian/bin/pakcoind usr/bin
+src/pakcoind usr/lib/pakcoin

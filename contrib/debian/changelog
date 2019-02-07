@@ -1,0 +1,3 @@
+pakcoin (0.16.0.0) stable; urgency=low
+
+  * Update debian package scripts for use by pakcoin.
