@@ -1779,7 +1779,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1912,7 +1912,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>The address to send the payment to (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1953,7 +1953,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1977,7 +1977,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>The address to sign the message with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2041,7 +2041,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>The address the message was signed with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2057,7 +2057,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
     <message>

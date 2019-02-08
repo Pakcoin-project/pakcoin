@@ -1791,8 +1791,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Vnesite Pakcoin naslov (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Vnesite Pakcoin naslov (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1924,7 +1924,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
+        <source>The address to send the payment to (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1965,8 +1965,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Vnesite Pakcoin naslov (npr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Vnesite Pakcoin naslov (npr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Naslov s katerim želite podpisati sporočilo (npr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address to sign the message with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Naslov s katerim želite podpisati sporočilo (npr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2053,8 +2053,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address the message was signed with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2069,8 +2069,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Vnesite Pakcoin naslov (npr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Vnesite Pakcoin naslov (npr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="-2"/>

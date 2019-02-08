@@ -1797,8 +1797,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Zadajte Pakcoin adresu (napr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Zadajte Pakcoin adresu (napr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1930,8 +1930,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Adresa pre poslanie platby (napr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address to send the payment to (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Adresa pre poslanie platby (napr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1971,8 +1971,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Zadajte Pakcoin adresu (napr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Zadajte Pakcoin adresu (napr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
 </context>
 <context>
@@ -1995,8 +1995,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Adresa na podpísanie správy (napr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address to sign the message with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Adresa na podpísanie správy (napr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2059,8 +2059,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Adresa správy bola podpísaná (napr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address the message was signed with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Adresa správy bola podpísaná (napr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2075,8 +2075,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Zadajte Pakcoin adresu (napr. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Zadajte Pakcoin adresu (napr. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="-2"/>

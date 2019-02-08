@@ -1798,8 +1798,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Syötä Pakcoin-osoite (esim. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Syötä Pakcoin-osoite (esim. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1931,8 +1931,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Osoite, johon maksu lähetetään (esim. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address to send the payment to (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Osoite, johon maksu lähetetään (esim. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1972,8 +1972,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Syötä Pakcoin-osoite (esim. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Syötä Pakcoin-osoite (esim. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
 </context>
 <context>
@@ -1996,8 +1996,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Osoite, jolle viesti kirjataan (esim. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>The address to sign the message with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Osoite, jolle viesti kirjataan (esim. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2060,8 +2060,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Osoite, jolla viesti on allekirjoitettu (esim. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw) </translation>
+        <source>The address the message was signed with (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Osoite, jolla viesti on allekirjoitettu (esim. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6) </translation>
     </message>
     <message>
         <location line="+40"/>
@@ -2076,8 +2076,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Pakcoin address (e.g. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</source>
-        <translation>Syötä Pakcoin-osoite (esim. WPT7ufM1tz2uzV7x9sG26z4CuhWs2B18Rw)</translation>
+        <source>Enter a Pakcoin address (e.g. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</source>
+        <translation>Syötä Pakcoin-osoite (esim. PS2s6xGvu731ipSKTM3THGdNZCwgirxqK6)</translation>
     </message>
     <message>
         <location line="-2"/>
