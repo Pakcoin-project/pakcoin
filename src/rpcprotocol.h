@@ -76,8 +76,10 @@ enum RPCErrorCode
 //
 template <typename Protocol>
 class SSLIOStreamDevice : public boost::iostreams::device<boost::iostreams::bidirectional> {
+private:
+    boost::asio::io_service& io_service;
 public:
-    SSLIOStreamDevice(boost::asio::ssl::stream<typename Protocol::socket> &streamIn, bool fUseSSLIn) : stream(streamIn)
+    SSLIOStreamDevice(boost::asio::io_service& io_serviceIn, boost::asio::ssl::stream<typename Protocol::socket> &streamIn, bool fUseSSLIn) : io_service(io_serviceIn), stream(streamIn)
     {
         fUseSSL = fUseSSLIn;
         fNeedHandshake = fUseSSLIn;
@@ -103,7 +105,7 @@ public:
     }
     bool connect(const std::string& server, const std::string& port)
     {
-        boost::asio::ip::tcp::resolver resolver(stream.get_io_service());
+        boost::asio::ip::tcp::resolver resolver(io_service);
         boost::asio::ip::tcp::resolver::query query(server.c_str(), port.c_str());
         boost::asio::ip::tcp::resolver::iterator endpoint_iterator = resolver.resolve(query);
         boost::asio::ip::tcp::resolver::iterator end;

@@ -6,7 +6,7 @@ USE_UPNP:=0
 USE_WALLET:=1
 
 LINK:=$(CXX)
-ARCH:=$(system lscpu | head -n 1 | awk '{print $2}')
+ARCH:=$(shell lscpu | head -n 1 | awk '{print $$2}')
 
 DEFS=-DBOOST_SPIRIT_THREADSAFE
 
@@ -29,6 +29,7 @@ LIBS += \
    -l boost_filesystem$(BOOST_LIB_SUFFIX) \
    -l boost_program_options$(BOOST_LIB_SUFFIX) \
    -l boost_thread$(BOOST_LIB_SUFFIX) \
+   -l boost_chrono$(BOOST_LIB_SUFFIX) \
    -l db_cxx$(BDB_LIB_SUFFIX) \
    -l ssl \
    -l crypto
@@ -66,15 +67,16 @@ LIBS+= \
     # Make some important things such as the global offset table read only as soon as
     # the dynamic linker is finished building it. This will prevent overwriting of addresses
     # which would later be jumped to.
-    LDHARDENING+=-Wl,-z,relro -Wl,-z,now
+    LDHARDENING+=-Wl,-z,relro -Wl,-z,now -no-pie
 
     # Build position independent code to take advantage of Address Space Layout Randomization
     # offered by some kernels.
     # see doc/build-unix.txt for more information.
-    ifdef PIE
-        HARDENING+=-fPIE
-        LDHARDENING+=-pie
-    endif
+    # Note: Disabled PIE by default because LevelDB is not compiled with -fPIE
+    # ifdef PIE
+    #     HARDENING+=-fPIE
+    #     LDHARDENING+=-pie
+    # endif
 
     # -D_FORTIFY_SOURCE=2 does some checking for potentially exploitable code patterns in
     # the source such overflowing a statically defined buffer.

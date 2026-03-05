@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Build artifacts
+src/obj/*.o
+src/obj/*.P
+src/obj-test/*.o
+src/pakcoind
+src/leveldb/libleveldb.a
+src/leveldb/libmemenv.a
+
+# Qt build artifacts
+build/
+*.pro.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+doc/
+
+# IDE
+.vscode/
+.idea/

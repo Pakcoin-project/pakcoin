@@ -1104,7 +1104,7 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
     bnNew *= ((nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing);
     bnNew /= ((nInterval + 1) * nTargetSpacing);
 
-    if (bnNew <= 0 || bnNew > bnTargetLimit)
+    if (BN_is_zero(bnNew.bn) || BN_is_negative(bnNew.bn) || bnNew > bnTargetLimit)
         bnNew = bnTargetLimit;
 
     return bnNew.GetCompact();
@@ -1116,7 +1116,7 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
     bnTarget.SetCompact(nBits);
 
     // Check range
-    if (bnTarget <= 0 || bnTarget > Params().ProofOfWorkLimit())
+    if (BN_is_zero(bnTarget.bn) || BN_is_negative(bnTarget.bn) || bnTarget > Params().ProofOfWorkLimit())
         return error("CheckProofOfWork() : nBits below minimum work");
 
     // Check proof of work matches claimed amount
@@ -2185,10 +2185,10 @@ uint256 CBlockIndex::GetBlockTrust() const
     CBigNum bnTarget;
     bnTarget.SetCompact(nBits);
 
-    if (bnTarget <= 0)
+    if (BN_is_zero(bnTarget.bn) || BN_is_negative(bnTarget.bn))
         return 0;
 
-    return ((CBigNum(1)<<256) / (bnTarget+1)).getuint256();
+    return ((CBigNum(1)<<256) / (bnTarget + CBigNum(1))).getuint256();
 }
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)

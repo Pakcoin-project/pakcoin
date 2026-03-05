@@ -490,7 +490,7 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, co
                     // In the rare event that the argument may be < 0 due to
                     // some arithmetic being done first, you can always use
                     // 0 MAX CHECKLOCKTIMEVERIFY.
-                    if (nLockTime < 0)
+                    if (BN_is_negative(nLockTime.bn))
                         return false;
 
                     // Actually compare the specified lock time with the transaction.
