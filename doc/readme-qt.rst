@@ -8,7 +8,7 @@ Debian Jessie
 --------------
 
 First, make sure that the required packages for Qt5 development of your
-distribution are installed, for Debian and Ubuntu these are:
+ distribution are installed, for Debian and Ubuntu these are:
 
 ::
 
@@ -27,6 +27,28 @@ then execute the following:
 Alternatively, install Qt Creator and open the `pakcoin-qt.pro` file.
 
 An executable named `pakcoin-qt` will be built.
+
+
+Ubuntu 20.04
+------------
+
+Install the required packages for Qt5 development:
+
+::
+
+    sudo apt-get update
+    sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev \
+        libminiupnpc-dev libqrencode-dev qt5-default qt5-qmake qtbase5-dev-tools \
+        qttools5-dev-tools git wget
+
+Build:
+
+::
+
+    qmake
+    LDFLAGS="-no-pie" make
+
+Note: PIE is disabled because LevelDB is not compiled with -fPIE.
 
 
 Debian Stretch
