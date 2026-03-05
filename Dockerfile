@@ -15,8 +15,8 @@ RUN apt-get update && apt-get install -y \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
-# Clone the repository
-RUN git clone https://github.com/Pakcoin-project/pakcoin.git /pakcoin
+# Clone the repository (main branch with Ubuntu 20.04 compatibility)
+RUN git clone --branch main https://github.com/Pakcoin-project/pakcoin.git /pakcoin
 
 # Set working directory
 WORKDIR /pakcoin
